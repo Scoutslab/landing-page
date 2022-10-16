@@ -1,0 +1,43 @@
+.image-file-manager-overview {
+    width:100%;
+}
+
+.image-file-manager-overview li {
+    width:150px;
+    height:90px;
+    background-color:#666;
+    float:left;
+    margin:10px;
+}
+
+.image-file-manager-overview li img {
+    width:150px;
+    position:absolute;
+    margin-left: 10px;
+}
+
+.image-file-manager-item {
+    margin-right: 20px;
+}
+
+.image-file-manager-tool {
+    display:none;
+    position:absolute;
+    left:15px;
+    bottom:0;
+    background-color: #f3f6f9;
+    padding: 0px;
+    margin: 0px;
+}
+
+.image-file-manager-tool div {
+    width:20px;
+    display:block;
+    float:left;
+    margin:5px;
+    cursor:pointer;
+}
+
+.image-file-manager-tool img {
+    width:20px;
+}
